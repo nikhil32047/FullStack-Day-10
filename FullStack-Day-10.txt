@@ -1,0 +1,56 @@
+Day 10:
+==========
+
+Iterative Statements in Python
+
+Loops allow repeating a block of code multiple times.
+
+a) for Loop
+==================
+Used to iterate over sequences like lists, strings, ranges, etc.
+
+Example:
+for i in range(5):
+    print(i)
+# 0 1 2 3 4
+
+
+b) Nested for Loop
+==========================
+A for loop inside another for loop.
+Used for grids, matrices, patterns.
+
+Example:
+for i in range(3):
+    for j in range(2):
+        print(i, j)
+
+
+Outputs pairs like (0,0), (0,1), ...
+
+
+c) while Loop
+======================
+Runs as long as the condition remains True.
+Useful when we don’t know the exact number of iterations.
+
+Example:
+n = 1
+while n <= 3:
+    print(n)
+    n += 1
+
+
+d) Nested while Loop
+============================
+A while loop inside another while.
+Used for repeated structured patterns.
+
+Example:
+i = 1
+while i <= 2:
+    j = 1
+    while j <= 3:
+        print(i, j)
+        j += 1
+    i += 1
